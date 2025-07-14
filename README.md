@@ -47,3 +47,74 @@ php artisan db:seed
 
 ### 7️⃣ Serve the Application
 php artisan serve
+
+
+
+###    UPDATING FEATURES ...
+
+# 1. Pull the latest main
+git checkout main
+git pull origin main
+
+# 2. Create a feature branch
+git checkout -b feature/feature-name
+
+# 3. Work and commit
+git add .
+git commit -m "Add: new feature"
+
+# 4. Push to their own branch
+git push origin feature/feature-name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### DONT USE THIS!!!!!
+
+## Submit Pull Request (PR) to main
+
+Pull Requests > New Pull Request
+
+Select:
+
+Base: main
+
+Compare: feature/feature-name
+
+Add a description
+
+Submit it for review
+
+You (or any assigned reviewer) can then merge it into main.
